@@ -28,3 +28,4 @@ This is a list of all the users that are in the database, which happens automati
 Sign out:
 
 Its simple. Just press the sign out button in the top left hand corner of the root page, and you are redirected to the Welcome page, where you can sign back in at your leisure. But before you log out, I encourage you to click on the users that you have saved to your friend list to see their profile, as well as remove users from your friend list, as things happen. Sign back in and see your friend list intact
+# FinalCsProjectNickJaegerDec7
