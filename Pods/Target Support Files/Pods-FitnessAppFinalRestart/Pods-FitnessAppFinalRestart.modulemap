@@ -1,0 +1,6 @@
+framework module Pods_FitnessAppFinalRestart {
+  umbrella header "Pods-FitnessAppFinalRestart-umbrella.h"
+
+  export *
+  module * { export * }
+}
