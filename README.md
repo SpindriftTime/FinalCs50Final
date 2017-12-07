@@ -7,7 +7,7 @@ Final Project, Fitness App in Swift
 
 Opening the app:
 
-Do not use the .xcodeproj file, use the .xcworkspace.
+Do not use the .xcodeproj file, use the .xcworkspace. When you clone the app via:  https://github.com/SpindriftTime/FinalCs50Final.git , and you try and run it, you might be asked for a keychain password to enable debugger, this is not mandatory, you can cancel it until it goes away and then open the app on the iphone simulator and run it without a problem.
 
 Compiling:
 
