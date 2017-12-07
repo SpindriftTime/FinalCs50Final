@@ -7,21 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06CC671F1143DBF7171D6953 /* Pods_FitnessAppFinalRestart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C96955F57F6DAD491D264C /* Pods_FitnessAppFinalRestart.framework */; };
 		992BCEE11FD8FB1C00447876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992BCEE01FD8FB1C00447876 /* AppDelegate.swift */; };
-		992BCEE31FD8FB1C00447876 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992BCEE21FD8FB1C00447876 /* ViewController.swift */; };
 		992BCEE61FD8FB1C00447876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 992BCEE41FD8FB1C00447876 /* Main.storyboard */; };
 		992BCEE81FD8FB1C00447876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 992BCEE71FD8FB1C00447876 /* Assets.xcassets */; };
 		992BCEEB1FD8FB1C00447876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 992BCEE91FD8FB1C00447876 /* LaunchScreen.storyboard */; };
+		9953B3681FD90E1B00D4F771 /* FAUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9953B3671FD90E1B00D4F771 /* FAUser.swift */; };
+		996090091FD8FCAF0079CA52 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 996090081FD8FCAF0079CA52 /* GoogleService-Info.plist */; };
+		9960900B1FD8FD750079CA52 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9960900A1FD8FD750079CA52 /* WelcomeViewController.swift */; };
+		9960900D1FD8FD8F0079CA52 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9960900C1FD8FD8F0079CA52 /* RootViewController.swift */; };
+		998A9D231FD903CB00EABCB7 /* AppDelegate+GoogleSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998A9D221FD903CB00EABCB7 /* AppDelegate+GoogleSignIn.swift */; };
+		9994AF131FD91B360056331E /* FAPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9994AF121FD91B350056331E /* FAPersistence.swift */; };
+		9994AF151FD924FE0056331E /* MembershipUITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9994AF141FD924FE0056331E /* MembershipUITableViewController.swift */; };
+		9994AF171FD929AD0056331E /* FAMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9994AF161FD929AD0056331E /* FAMember.swift */; };
+		9994AF1A1FD9493D0056331E /* ConnectionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9994AF191FD9493D0056331E /* ConnectionDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D34E80084F6B2FE1F9F355E /* Pods-FitnessAppFinalRestart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitnessAppFinalRestart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitnessAppFinalRestart/Pods-FitnessAppFinalRestart.debug.xcconfig"; sourceTree = "<group>"; };
+		36C96955F57F6DAD491D264C /* Pods_FitnessAppFinalRestart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitnessAppFinalRestart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		992BCEDD1FD8FB1C00447876 /* FitnessAppFinalRestart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessAppFinalRestart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		992BCEE01FD8FB1C00447876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		992BCEE21FD8FB1C00447876 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		992BCEE51FD8FB1C00447876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		992BCEE71FD8FB1C00447876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		992BCEEA1FD8FB1C00447876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		992BCEEC1FD8FB1C00447876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9953B3671FD90E1B00D4F771 /* FAUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAUser.swift; sourceTree = "<group>"; };
+		996090081FD8FCAF0079CA52 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9960900A1FD8FD750079CA52 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		9960900C1FD8FD8F0079CA52 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		998A9D221FD903CB00EABCB7 /* AppDelegate+GoogleSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+GoogleSignIn.swift"; sourceTree = "<group>"; };
+		9994AF121FD91B350056331E /* FAPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAPersistence.swift; sourceTree = "<group>"; };
+		9994AF141FD924FE0056331E /* MembershipUITableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipUITableViewController.swift; sourceTree = "<group>"; };
+		9994AF161FD929AD0056331E /* FAMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAMember.swift; sourceTree = "<group>"; };
+		9994AF181FD943480056331E /* FitnessAppFinalRestart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FitnessAppFinalRestart.entitlements; sourceTree = "<group>"; };
+		9994AF191FD9493D0056331E /* ConnectionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionDetailViewController.swift; sourceTree = "<group>"; };
+		ABAE16CD7BD90FE0CD621A3A /* Pods-FitnessAppFinalRestart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitnessAppFinalRestart.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitnessAppFinalRestart/Pods-FitnessAppFinalRestart.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +50,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06CC671F1143DBF7171D6953 /* Pods_FitnessAppFinalRestart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B70CBEB3D2755837EA0F844 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36C96955F57F6DAD491D264C /* Pods_FitnessAppFinalRestart.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EFE02BE61FCADE5F8BC1C39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D34E80084F6B2FE1F9F355E /* Pods-FitnessAppFinalRestart.debug.xcconfig */,
+				ABAE16CD7BD90FE0CD621A3A /* Pods-FitnessAppFinalRestart.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		992BCED41FD8FB1C00447876 = {
 			isa = PBXGroup;
 			children = (
 				992BCEDF1FD8FB1C00447876 /* FitnessAppFinalRestart */,
 				992BCEDE1FD8FB1C00447876 /* Products */,
+				6EFE02BE61FCADE5F8BC1C39 /* Pods */,
+				2B70CBEB3D2755837EA0F844 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +95,21 @@
 		992BCEDF1FD8FB1C00447876 /* FitnessAppFinalRestart */ = {
 			isa = PBXGroup;
 			children = (
-				992BCEE01FD8FB1C00447876 /* AppDelegate.swift */,
-				992BCEE21FD8FB1C00447876 /* ViewController.swift */,
-				992BCEE41FD8FB1C00447876 /* Main.storyboard */,
-				992BCEE71FD8FB1C00447876 /* Assets.xcassets */,
+				9994AF181FD943480056331E /* FitnessAppFinalRestart.entitlements */,
 				992BCEE91FD8FB1C00447876 /* LaunchScreen.storyboard */,
+				9953B3671FD90E1B00D4F771 /* FAUser.swift */,
+				9994AF191FD9493D0056331E /* ConnectionDetailViewController.swift */,
+				9994AF161FD929AD0056331E /* FAMember.swift */,
+				9994AF121FD91B350056331E /* FAPersistence.swift */,
+				992BCEE01FD8FB1C00447876 /* AppDelegate.swift */,
+				998A9D221FD903CB00EABCB7 /* AppDelegate+GoogleSignIn.swift */,
+				992BCEE41FD8FB1C00447876 /* Main.storyboard */,
+				9960900A1FD8FD750079CA52 /* WelcomeViewController.swift */,
+				9960900C1FD8FD8F0079CA52 /* RootViewController.swift */,
+				9994AF141FD924FE0056331E /* MembershipUITableViewController.swift */,
+				992BCEE71FD8FB1C00447876 /* Assets.xcassets */,
 				992BCEEC1FD8FB1C00447876 /* Info.plist */,
+				996090081FD8FCAF0079CA52 /* GoogleService-Info.plist */,
 			);
 			path = FitnessAppFinalRestart;
 			sourceTree = "<group>";
@@ -71,9 +121,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 992BCEEF1FD8FB1C00447876 /* Build configuration list for PBXNativeTarget "FitnessAppFinalRestart" */;
 			buildPhases = (
+				1A46FB8B4D83300399CF78CA /* [CP] Check Pods Manifest.lock */,
 				992BCED91FD8FB1C00447876 /* Sources */,
 				992BCEDA1FD8FB1C00447876 /* Frameworks */,
 				992BCEDB1FD8FB1C00447876 /* Resources */,
+				135022B898C22DF950F0A289 /* [CP] Embed Pods Frameworks */,
+				AB5982A15A12F41C86CA80B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +150,11 @@
 					992BCEDC1FD8FB1C00447876 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -124,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				992BCEEB1FD8FB1C00447876 /* LaunchScreen.storyboard in Resources */,
+				996090091FD8FCAF0079CA52 /* GoogleService-Info.plist in Resources */,
 				992BCEE81FD8FB1C00447876 /* Assets.xcassets in Resources */,
 				992BCEE61FD8FB1C00447876 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +190,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		135022B898C22DF950F0A289 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FitnessAppFinalRestart/Pods-FitnessAppFinalRestart-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitnessAppFinalRestart/Pods-FitnessAppFinalRestart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A46FB8B4D83300399CF78CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitnessAppFinalRestart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB5982A15A12F41C86CA80B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FitnessAppFinalRestart/Pods-FitnessAppFinalRestart-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitnessAppFinalRestart/Pods-FitnessAppFinalRestart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		992BCED91FD8FB1C00447876 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				992BCEE31FD8FB1C00447876 /* ViewController.swift in Sources */,
+				9994AF171FD929AD0056331E /* FAMember.swift in Sources */,
+				9994AF1A1FD9493D0056331E /* ConnectionDetailViewController.swift in Sources */,
+				9994AF131FD91B360056331E /* FAPersistence.swift in Sources */,
+				9960900B1FD8FD750079CA52 /* WelcomeViewController.swift in Sources */,
+				998A9D231FD903CB00EABCB7 /* AppDelegate+GoogleSignIn.swift in Sources */,
+				9960900D1FD8FD8F0079CA52 /* RootViewController.swift in Sources */,
+				9953B3681FD90E1B00D4F771 /* FAUser.swift in Sources */,
 				992BCEE11FD8FB1C00447876 /* AppDelegate.swift in Sources */,
+				9994AF151FD924FE0056331E /* MembershipUITableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,8 +405,10 @@
 		};
 		992BCEF01FD8FB1C00447876 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D34E80084F6B2FE1F9F355E /* Pods-FitnessAppFinalRestart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FitnessAppFinalRestart/FitnessAppFinalRestart.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PE387327U6;
 				INFOPLIST_FILE = FitnessAppFinalRestart/Info.plist;
@@ -287,8 +422,10 @@
 		};
 		992BCEF11FD8FB1C00447876 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABAE16CD7BD90FE0CD621A3A /* Pods-FitnessAppFinalRestart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FitnessAppFinalRestart/FitnessAppFinalRestart.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PE387327U6;
 				INFOPLIST_FILE = FitnessAppFinalRestart/Info.plist;
