@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 
+// defines a class to hold information about our user
 class FAUser {
     
     var userID: String?
@@ -24,6 +25,7 @@ class FAUser {
         return instance
     }()
     
+    //protect information to the individual account
     private init() {}
     
     // MARK: - Authentication

@@ -8,6 +8,7 @@
 
 import UIKit
 
+// defines a class for our connections
 class FAMember {
     var uid: String
     var name: String

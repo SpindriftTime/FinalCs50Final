@@ -36,6 +36,7 @@ class RootViewController: UITableViewController {
         super.didReceiveMemoryWarning()
     }
     
+    // firebase sign out function on click
     @IBAction func signOut() {
         do {
             try Auth.auth().signOut()

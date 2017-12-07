@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 
+// makes it easy to append to database
 class FAPersistence: DatabaseReference {
     
     static var db: DatabaseReference = {

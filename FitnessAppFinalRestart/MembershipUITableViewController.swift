@@ -11,6 +11,7 @@ import Firebase
 
 class MembershipUITableViewController: UITableViewController {
 
+    // selected members
     var members = [FAMember]()
     
     override func viewDidLoad() {
@@ -21,6 +22,7 @@ class MembershipUITableViewController: UITableViewController {
         queryDatabase()
     }
     
+    // search database
     func queryDatabase() {
         FAPersistence.db.child("users").observe(.value) { (snapshot) in
             if let update = snapshot.value as? [String: AnyObject] {
